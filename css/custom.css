@@ -1,0 +1,25 @@
+/* =====================================================================
+   ระบบเติมเงินรวม : PromptPay QR + TrueMoney Gift
+   ส่วนเสริมเล็กน้อย (หน้าตาหลักเป็น Bootstrap 5 ค่าเริ่มต้น)
+   ===================================================================== */
+
+/* ตัวอักษรไทยช่วยให้อ่านง่ายขึ้น */
+body {
+    font-family: "Sarabun", "Tahoma", "Lato", sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* QR ให้คงขนาดเท่ากันทุกหน้า */
+.qr-area img {
+    width: 240px;
+    height: 240px;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+}
+
+/* ยอดเงินที่ต้องโอน (หน้า QR) */
+.amount-big {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #dc3545;
+}

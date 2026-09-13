@@ -24,7 +24,7 @@
 
 ## ออกแบบ UI
 
-ใช้ **Bootstrap 5 (CDN) + FontAwesome + Google Fonts (Sarabun)** ให้หน้าต่าเป็น Bootstrap ค่าเริ่มต้น ไม่เขียน style/script แบบ inline (แยกไว้ที่ `css/custom.css` และ `js/custom.js`):
+ใช้ **Bootstrap 5 (CDN) + FontAwesome + Google Fonts (Sarabun)** ให้หน้าตาเป็น Bootstrap ค่าเริ่มต้น ไม่เขียน style/script แบบ inline (แยกไว้ที่ `css/custom.css` และ `js/custom.js`):
 
 ```html
 <meta charset="UTF-8">
